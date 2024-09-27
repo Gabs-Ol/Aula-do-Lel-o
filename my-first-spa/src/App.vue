@@ -1,24 +1,24 @@
+<template>
+<div>
+  <form @submit.prevent='addItem'>
+    <input type="number" placeholder="Base">
+    <input type="number" placeholder="Altura">
+    <input type="submit">
+  </form>
+</div>
+</template>
 <script>
-import NavPage from './components/default/NavPage.vue';
-import ContentPage from './components/default/ContentPage.vue';
-import FooterPage from './components/default/FooterPage.vue';
-
 export default {
-  name: 'App',
-  components: {
-    NavPage,
-    ContentPage,
-    FooterPage
+  data(){
+    return{
+
+    };
+  },
+  methods: {
+    
   }
 }
 </script>
-
-<template>
-  <NavPage></NavPage>
-  <ContentPage></ContentPage>
-  <FooterPage></FooterPage>
-</template>
-
 <style>
 
 </style>
